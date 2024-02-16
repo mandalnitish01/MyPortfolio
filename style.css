@@ -381,11 +381,15 @@ span{
 
 /* BREAKPOINTS */
 
-@media (max-width: 768px)
+@media (max-width: 460px)
 {
+    body{
+        text-align: center;
+    }
     .header{
         display: flex;
         flex-direction: column;
+        width: 415px;
     }
    .nav{
     text-align: center;
@@ -435,10 +439,13 @@ span{
         margin-top: 30px;
     }
     .social-media{
-        margin-left: 17%;
+        margin-left: 10%;
     }
     .btn{
-        margin-left: 30%;
+        margin-left: 6%;
+    }
+    .contenttext{
+        margin-top: 30px;
     }
     .about{
         display: flex;
