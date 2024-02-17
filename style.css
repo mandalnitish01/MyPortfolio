@@ -13,9 +13,6 @@
 .new{
     animation:  4s ease-in-out infinite ;
 }
-
-
-
 :root{
     /* --bg-color: linear-gradient(0deg, rgba(50,94,94,1) 0%, rgba(13,14,14,1) 100%, rgba(13,12,12,1) 100%); */
     --bg-color: linear-gradient(111deg, rgba(2,0,36,1) 0%, rgba(9,121,105,1) 100%, rgba(0,212,255,1) 100%);
