@@ -159,6 +159,40 @@ span{
     box-shadow: none;
 }
 
+
+
+
+
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 201px;
+}
+
+.wave .shape-fill {
+    fill: #2d2f3b;
+}
+
+
+
+
+
+
+
+
+
+
 .about{
     display: flex;
     justify-content: center;
@@ -391,6 +425,9 @@ span{
 
 @media (max-width: 460px)
 {
+    .wave {
+       display: none;
+    }
      .header{
     display: flex;
     flex-direction: column;
@@ -445,9 +482,6 @@ span{
     .home-content{
 
         margin-top: 30px;
-    }
-    .social-media{
-        margin-left: 10%;
     }
     .btn{
         margin-left: 6%;
