@@ -420,7 +420,7 @@ span{
 
 /* BREAKPOINTS */
 
-@media (max-width: 460px)
+@media (max-width: 500px)
 {
     .wave {
        display: none;
@@ -428,7 +428,7 @@ span{
      .header{
     display: flex;
     flex-direction: column;
-    width: 460px !important;
+    width: 390px;
 } 
    .nav{
     text-align: center;
@@ -446,7 +446,6 @@ span{
     transition: 0.3s ease-in-out;
     cursor: pointer;
     font-size: 3rem;
-    margin-right: 100px;
 }
 .logo:hover{
     background-color: #fff;
@@ -537,10 +536,10 @@ span{
         height: 250px;
         width: 400px;
     }
-    #button{
-        margin-right: 100px;
-    }
 
+    #button {
+        margin-right: 30px;
+    }
 }
 
 
