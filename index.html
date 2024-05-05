@@ -75,7 +75,7 @@
         <section class="portfolio" id="portfolio">
             <h2 class="heading">Latest <span class="new">Project</span></h2>
             <div class="portfolio-container">
-                <div class="portfolio-box">
+                <div id="project_ani" class="portfolio-box">
                     <img width="640px" height="426px"  src="images/portfolio1.png" alt="">
                     <div class="portfolio-layer">
                         <h4>QR Code Genrator</h4>
@@ -86,7 +86,7 @@
                     </div>
                 </div>
 
-                <div class="portfolio-box">
+                <div id="project_ani" class="portfolio-box">
                     <img width="640px" height="426px"  src="images/portfolio2.png" alt="">
                     <div class="portfolio-layer">
                         <h4>Calculator</h4>
@@ -97,7 +97,7 @@
                     </div>
                 </div>
 
-                <div class="portfolio-box">
+                <div id="project_ani" class="portfolio-box">
                     <img width="640px" height="426px"  src="images/portfolio3.png" alt="">
                     <div class="portfolio-layer">
                         <h4>Zerodha clone</h4>
@@ -108,7 +108,7 @@
                     </div>
                 </div>
 
-                <div class="portfolio-box">
+                <div id="project_anim" class="portfolio-box">
                     <img width="640px" height="426px"  src="images/portfolio4.png" alt="">
                     <div class="portfolio-layer">
                         <h4>Dice Roller</h4>
@@ -119,7 +119,7 @@
                     </div>
                 </div>
 
-                <div class="portfolio-box">
+                <div id="project_anim"  class="portfolio-box">
                     <img width="640px" height="426px"  src="images/portfolio5.png" alt="">
                     <div class="portfolio-layer">
                         <h4>Temprature Convertor</h4>
@@ -129,7 +129,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="portfolio-box">
+                <div id="project_anim"   class="portfolio-box">
                     <img width="640px" height="426px" src="images/portfolio6.png" alt="">
                     <div class="portfolio-layer">
                         <h4>Addition game</h4>
@@ -145,23 +145,25 @@
         <!-- contact section design -->
      <section class="contact" id="contact">
         <h2 class="heading">Contact <span class="new">Me</span></h2>
-        <form action="https://accounts.google.com/">
+        <form action="https://api.web3forms.com/submit" method="POST">
             <div class="input-box">
-                <input type="text"  id="contact_text" placeholder="Full Name">
-                <input type="email"  id="contact_text" placeholder="Email Address">
+                <input type="hidden" name="access_key" value="7ed1b4bc-83ae-4451-9f7a-bc124a3a224e">
+
+                <input type="text"  id="contact_text" placeholder="Full Name" name="name">
+                <input type="email"  id="contact_text" placeholder="Email Address" name="email">
             </div>
             <div class="input-box">
-                <input type="number" id="contact_text" placeholder="Mobile number">
-                <input type="text" id="contact_text" placeholder="Email Subject">
+                <input type="number" id="contact_text" placeholder="Mobile number" name="Mobile">
+                <input type="text" name="email" id="contact_text" placeholder="Email Subject">
             </div>
-           <textarea name="" id="contact_text1" cols="30" rows="10" placeholder="Your Message"></textarea>
+           <textarea name="Message" id="contact_text1" cols="30" rows="10" placeholder="Your Message" data-name="Message"></textarea>
            <input  id="button" type="Submit" value="Send Message" class="btn">
         </form>
+        
        <p>
-
-
         <iframe class="iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.4095955298085!2d77.15277667608672!3d28.557460737484742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1db19e8f2d03%3A0xc6030f91563d50c9!2sAir%20India%20Colony%2C%20Indian%20Air%20Lines%20%26%20Air%20India%20Estate%2C%20Vasant%20Vihar%2C%20New%20Delhi%2C%20Delhi%20110057!5e0!3m2!1sen!2sin!4v1708961593190!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
        </p>
+
      </section>
      
 
