@@ -105,11 +105,15 @@ section{
     align-items: center;
     background:var(--system-color);
 }
+/* .home-img{
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+} */
 .home-img img {
     height: 30vw;
    width: 30vw;
     margin-left: 250px;
-    border-radius: 290px;
+    /* border-radius: 290px; */
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
     animation: floatImage 4s ease-in-out infinite;
     transition: 0.4s ease-in-out;
     cursor: pointer;
@@ -227,7 +231,7 @@ span{
 }
 
 
-.cursor{
+/* .cursor{
     height: 25px;
     width: 25px;
     background-color: rgb(255, 255, 255);
@@ -235,7 +239,7 @@ span{
     position: absolute;
     transition: all linear 0.2s;
     mix-blend-mode: difference;
-}
+} */
 
 
 
